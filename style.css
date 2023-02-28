@@ -1,0 +1,132 @@
+body{ 
+    color: rgb(80,80,80);
+    font-family: didot, serif;
+    font-size: 18px;
+    font-weight: lighter;
+    background-color: rgb(230,230,230);
+}
+
+#text-white{
+	color: white;
+}
+
+#pp{
+	height: 200px;
+	width: 220px;
+	border-radius: 50%;
+}
+
+#social{
+	height: 170px;
+	width: 800px;
+}
+
+#text-left{
+	text-align: left;
+}
+
+h1{
+	color: rgb(7,247,232);
+	font-family: Noto Sans, sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+}
+    
+h2{
+	color: black;
+	font-family: Noto Sans, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+h3{
+    color: rgb(7,247,232);
+	font-family: Noto Sans, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+
+a{
+	color: rgb(212,64,180);
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	transition: color 0.3 ease;
+}
+
+a:hover{
+	color: purple;
+}
+
+.container{
+	width: 700px
+	margin: 50px auto;
+}
+
+@media (max-width: 760px){
+	.container{
+		width: 600px
+	}
+}
+
+@media (max-width: 500px){
+	.container{
+		width: 400px
+	}
+}
+
+.background-grey{
+	background: rgb(50,50,50);
+	padding: 60px;
+	margin: 50px;
+	box-shadow: 8px 8px 8px rgb(7,247,232);
+	border-radius: 25px; 
+	text-align: center;   
+}
+
+.background-green{
+	border: 2px solid black;
+	height: 360px;
+	width: 800px;
+    background: rgb(243,243,221);
+	padding: auto 60px;
+	margin: 50px auto;
+	border-radius: 25px;
+	text-align: center;    
+}
+
+.button-yellow{
+	background-color: rgb(243,243,221);
+	padding: 15px 20px;
+	border-radius: 25px;
+	border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
